@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivShakti WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <section class="header" id="home">
+        <nav>
+            <a href="index.html"><img src="images/Logi-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-solid fa-xmark" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="#home"onclick="hideMenu()">HOME</a></li>
+                    <li><a href="#about" onclick="hideMenu()">ABOUT</a></li>
+                    <li><a href="#products"onclick="hideMenu()">PRODUCTS</a></li>
+                    <li><a href="#clients"onclick="hideMenu()">CLIENTS</a></li>
+                      <li><a href="#test"onclick="hideMenu()">TESTIMONIALS</a></li>
+                    <li><a href="#contact"onclick="hideMenu()">CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>India's Leading Transformer Manufacturers</h1>
+            <p>Shivshakti Transformers manufactures high-efficiency, BIS-certified distribution and power transformers. <br>With 25+ years of expertise, we provide robust energy solutions and expert servicing to keep your industry moving.</p>
+            <a href="#contact" class="hero-btn">Visit us To Know More</a>
+        </div>
+
+    </section>
+  <!-----aboutus------>
+   <section class="about-us" id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h5>Our Legacy</h5>
+            <h2>Powering India’s Progress Since 1999</h2>
+            <p>
+                Shivshakti Transformers is a leader in high-performance power solutions, 
+                specializing in the design and manufacturing of BIS-certified transformers. 
+                Based in the industrial heart of Maharashtra, we have spent over two 
+                decades perfecting the art of power distribution.
+            </p>
+            <p>
+                From small-scale rural electrification to massive industrial grids, 
+                our engineering team ensures every unit is built for zero-downtime 
+                and maximum efficiency.
+            </p>
+            
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span>25+</span>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <span>3000+</span>
+                    <p>Installations</p>
+                </div>
+                <div class="stat-item">
+                    <span>BIS</span>
+                    <p>Level II Certified</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="images/fac.webp" alt="Quality Testing">
+        </div>
+    </div>
+</section>
+
+
+    <!-----products------>
+    <section class="products" id="products">
+        <h1>Products We Offer</h1>
+        <p>We provide a comprehensive range of high-performance transformers designed for efficiency, durability, and compliance with the latest industrial standards.</p>
+   
+        <div class="row">
+            <div class="pro-col" style="background-color: #EBF8FF;">
+                <h3>⚡ Distribution Transformers</h3>
+                <p>The backbone of your manufacturing line.</p>
+                    <ul>
+                    <li>Capacity: 16 kVA to 2500 kVA</li>
+                    <li>Certification: BIS Energy Efficiency Level II.</li>
+                    <li>Applications: Residential complexes, small industries, and rural electrification.</li>
+                    <li>Feature: Low loss, high durability, and low maintenance.</li>
+                </ul>
+            </div>
+             <div class="pro-col" style="background-color: #EDF2F7;">
+                <h3>🔌 Power Transformers</h3>
+                <p>For heavy-duty industrial and utility applications.</p>
+                    <ul>
+                    <li>Capacity: High-performance units up to 5000 kVA.</li>
+                    <li>Voltage: Robust designs for up to 33 kV Class.</li>
+                    <li>Applications: Large manufacturing plants, substations, and solar parks.</li>
+                    <li>Feature: Robust design for continuous high-load operations.</li>
+                </ul>
+            </div>
+            <div class="pro-col" style="background-color: #F0FFF4;">
+                <h3>🏢 Dry-Type Transformers</h3>
+                <p>The safe choice for indoor and high-occupancy areas.</p>
+                    <ul>
+                    <li>Insulation: Vacuum Pressure Impregnated (VPI)</li>
+                    <li>Fire Safety: Self-extinguishing and moisture-resistant</li>
+                    <li>Applications: Hospitals, shopping malls, high-rise buildings, and IT parks.</li>
+                    <li>Feature: No oil leak risk, eco-friendly, and minimal clearance required.</li>
+                </ul>
+            </div>
+                <div class="pro-col" style="background-color: #FFFAF0;">
+                <h3>🛠 Servicing & Repair</h3>
+                <p>Highlighting your expertise in life-extension.</p>
+                    <ul>
+                    <li>Services: Complete rewinding, core repairing, and gasket replacement.</li>
+                    <li>Maintenance: On-site Oil Filtration (BDV testing) and painting.</li>
+                    <li>Testing: Rigorous post-repair testing to original manufacturer standards.</li>
+                    <li>Expertise: Over 25 years of experience handling all major brands.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+     <!-----clients------>
+   <section class="clients" id="clients">
+    <h1>Trusted by Industry Leaders Across India.</h1>
+    <p>
+        From government utility boards to private industrial giants, Shivshakti Transformers 
+        has been a preferred partner for over 25 years.
+    </p>
+
+    <div class="logo-slider">
+        <div class="logo-track">
+
+            <!-- ORIGINAL LOGOS -->
+            <div class="client-logo"><img src="images/adani.png"></div>
+            <div class="client-logo"><img src="images/Jio-Logo.wine.png"></div>
+            <div class="client-logo"><img src="images/pvr.png"></div>
+            <div class="client-logo"><img src="images/relianace.jpg"></div>
+            <div class="client-logo"><img src="images/tata-logo.svg"></div>
+            <div class="client-logo"><img src="images/citypride.webp"></div>
+            <div class="client-logo"><img src="images/MSEDCLlogo.png"></div>
+            <div class="client-logo"><img src="images/cinepolis.png"></div>
+
+            <!-- DUPLICATE (IMPORTANT for smooth loop) -->
+            <div class="client-logo"><img src="images/adani.png"></div>
+            <div class="client-logo"><img src="images/Jio-Logo.wine.png"></div>
+            <div class="client-logo"><img src="images/pvr.png"></div>
+            <div class="client-logo"><img src="images/relianace.jpg"></div>
+            <div class="client-logo"><img src="images/tata-logo.svg"></div>
+            <div class="client-logo"><img src="images/citypride.webp"></div>
+            <div class="client-logo"><img src="images/MSEDCLlogo.png"></div>
+            <div class="client-logo"><img src="images/cinepolis.png"></div>
+
+        </div>
+    </div>
+</section>
+    <section class="testimonial" id="test">
+        <h1>Testimonials</h1>
+
+        <div class="row">
+            <div class="testimonial-col">
+            <img src="images/adani.jpg">
+            <div>
+                <p>"In the manufacturing sector, power stability is non-negotiable. Shivshakti Transformers has provided us with units that handle our heavy load requirements without a single instance of downtime. Their BIS-certified quality gives us total peace of mind."</p>
+                <h3>— Senior Plant Manager, Adani Group</h3>
+            </div>
+            </div>
+            <div class="testimonial-col">
+            <img src="images/Jio-Logo.wine.png">
+            <div>
+                <p>"Working with the Shivshakti team on our rural electrification project was seamless. Their technical understanding of MSEDCL standards and their ability to deliver high-efficiency Level II transformers on a tight schedule was impressive."</p>
+                <h3>— Project Engineer, Jio Group</h3>
+            </div>
+            </div>
+        </div>
+    </section>
+
+ <section class="contact" id="contact">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Have a specific requirement or need a technical quote? Our team is ready to assist you.</p>
+            
+            <div class="info-details">
+                <p>📍 <strong>Location:</strong> MIDC Industrial Area, Pune</p>
+                <p>📞 <strong>Phone:</strong> +91 7066614141</p>
+                <p>✉️ <strong>Email:</strong> sales@shivshaktitransformers.com</p>
+            </div>
+        </div>
+
+        <div class="contact-form-box">
+            <h3>Send a Query</h3>
+            <p>Click the button below to fill out our formal inquiry form.</p>
+            <a href="" target="_blank" class="form-btn">Open Google Form</a>
+            <span class="form-note">*We usually respond within 24 hours.</span>
+        </div>
+    </div>
+</section>
+
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
